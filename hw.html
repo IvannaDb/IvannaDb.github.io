@@ -20,7 +20,7 @@
 					<nav>
 						<ul class="menu row">
 							<li><a href="">Home</a> </li>
-							<li><a href="">Products ⌵ </a>
+							<li><a href="">Products <b>⌵</b> </a>
 								<ul class="submenu">
 									<li><a href="">Lorem ipsum dolor</a></li>
 									<li><a href="">Sit amet</a></li>
@@ -38,20 +38,25 @@
 				</div>
 				<div class="col-md-3">
 					<div class="row">
-						<div class="col-md-9">
-							<div class="search">
-								<form action="search">
-									<input type="search" placeholder="Search" name="q">
-									<button class=iconsearch> </button>
+						<div class="col-md-2">
+							
+								<form>
+									<div class="search">
+										<input type="text" placeholder="Search">
+										<button class=iconsearch> </button>
+									</div>
 								</form>	
-							</div>
+							
 						</div>
-						<div class="col-md-3">
-							<div class="cart">
-								<div class="prod-count">4</div>
-								<a class="bucket" href=""></a>
+						<div class="col-md-1">
+							
 
-							</div>
+								<div class="prod-count">4</div>
+								<form>
+									<button class="basket"></button>
+								</form>
+								
+
 						</div>
 							
 						
@@ -60,7 +65,79 @@
 			</div>
 		</div>
 	</header>
-	<main class="main"></main>
+	<main class="main">
+		
+		<div class="carousel"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<aside class="sidebar"></aside>
+				</div>
+				<div class="col-md-9">
+					<ul class="groups row">
+						<li> <a href="">Home page > </a></li>
+						<li> <a href="">Products > </a></li>
+						<li> <a href="">Laptops and Tablets</a></li>
+					</ul>
+					<div class="row">
+						
+						<div class="col-md-6">
+							<h1>Laptops and Tablets</h1>
+						</div>
+						<div class="col-md-3">
+
+							<select class="sort">
+								<option value="sort by price">sort by price</option>
+								<option value="sort by date">sort by date</option>
+								<option value="sort by name">sort by name</option>
+								<option value="sort by popularity">sort by popularity</option>
+							</select>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="product">
+								<div class="img">
+									<img class= "product1" src="icons/icon (17).png" alt="">
+									<form action="">
+										<button class="square"></button>
+										<button class="heart"></button>
+									</form>
+								</div>
+								<div>
+									<h2>#1 Device Name</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p><b>TYPE:</b> Laptop</p>
+									<p><b>SCREEN SIZE:</b> 7 inches</p>
+									<p><b>RAM:</b> 1 GB</p>
+									<p class="price">$599<span>25</span></p>
+									<div class="details">
+										<a href="">MORE DETAILS</a>
+									</div>
+									<div class="add">
+										<a href="">ADD TO CART</a>
+						
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							product
+						</div>
+						<div class="col-md-3">
+							product
+						</div>
+						<div class="col-md-3">
+							product
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</main>
 	<footer class="footer"></footer>
 </body>
 </html>
