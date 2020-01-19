@@ -331,15 +331,43 @@ span{
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	background-color: #ffffff80;
+	background-color: rgba(255,255,255,0.25);
 	position: relative;
 	margin-bottom: 30px;
+	background-image: url(icons/basket2.png);
+	background-position: 85%  50%;
+	background-repeat: no-repeat;
 
 }
 .add>a {
 	color: white;
 }
-
+.heart2 {
+	background-image: url(icons/heart2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: transparent;
+	left: 235px;
+	top: 35px;
+	position: absolute;
+	cursor: pointer;
+}
+.square2 {
+	background-image: url(icons/square2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: transparent;
+	left: 235px;
+	top: 5px;
+	position: absolute;
+	cursor: pointer;
+}
 
 
 
@@ -350,6 +378,7 @@ span{
 
 
 .footer {
+	margin-top: 155px;
 	height: 100px;
 	background-color: rgba(255,255,255,0.75);
 }
