@@ -174,7 +174,7 @@ input[type="text"] {
 	z-index: 10;
 	font-size: 15px;
 }
-b {
+strong {
 	font-weight: 700;
 }
 .carousel {
@@ -232,6 +232,7 @@ h1 {
 	height: 650px;
 	border: 1px white solid;
 	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.05);
 	 
 
 }
@@ -240,10 +241,6 @@ h1 {
 	height: 180px;
 	width: 100%;
 	position: relative;
-	/*background-image: url(icons/square1.png);
-	background-repeat: no-repeat;
-	background-position: 95% 5%;
-	/*background-image: url(icons/heart1.png);*/
 
 }
 .product1 {
@@ -261,8 +258,8 @@ h1 {
 	background-position: 50% 50%;
 	width: 30px;
 	height: 30px;
-	border: none;
-	background-color: transparent;
+	border: solid 1px #2c71b8;
+	background-color: #2c71b8;
 	left: 235px;
 	top: 5px;
 	position: absolute;
@@ -276,16 +273,14 @@ h1 {
 	background-position: 50% 50%;
 	width: 30px;
 	height: 30px;
-	border: none;
-	background-color: transparent;
+	border: solid 1px #2c71b8;
+	background-color: #2c71b8;
 	left: 235px;
-	top: 35px;
+	top: 40px;
 	position: absolute;
 	cursor: pointer;
 }
-/*.details {
-	padding: 15px;
-}*/
+
 h2{
 	font-size: 25px;
 	font-weight: 700;
@@ -313,45 +308,56 @@ span{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	left: 30px;
+	/*right: 0;
+	margin: 0 auto;*/
 	margin-bottom: 15px;
 	position: relative;
-}
-.details>a {
+	background-color: transparent;
 	color: white;
+	font-weight: 700;
+	font-size: 17px;
+	cursor: pointer;
 }
+
 .add {
 	width: 210px;
 	border: 1px solid white;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	background-color: rgba(255,255,255,0.25);
+	left: 30px;
+	/*right: 0;
+	margin: 0 auto;*/
+	background-color: transparent;
 	position: relative;
 	margin-bottom: 30px;
 	background-image: url(icons/basket2.png);
 	background-position: 85%  50%;
 	background-repeat: no-repeat;
+	color: white;
+	font-weight: 700;
+	font-size: 17px;
+	cursor: pointer;
 
 }
-.add>a {
-	color: white;
+.details:hover{
+	background-color: rgba(255,255,255,0.5);
 }
+.add:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+
 .heart2 {
 	background-image: url(icons/heart2.png);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	width: 30px;
 	height: 30px;
-	border: none;
+	border: solid 1px #2c71b8;
 	background-color: transparent;
 	left: 235px;
-	top: 35px;
+	top: 40px;
 	position: absolute;
 	cursor: pointer;
 }
@@ -361,21 +367,22 @@ span{
 	background-position: 50% 50%;
 	width: 30px;
 	height: 30px;
-	border: none;
+	border: solid 1px #2c71b8;
 	background-color: transparent;
 	left: 235px;
 	top: 5px;
 	position: absolute;
 	cursor: pointer;
+
 }
-
-
-
-
-
-
-
-
+.heart2:hover {
+	background-image: url(icons/heart1.png);
+	background-color: #2c71b8;
+}
+.square2:hover {
+	background-image: url(icons/square1.png);
+	background-color: #2c71b8;
+}
 
 .footer {
 	margin-top: 155px;
