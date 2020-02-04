@@ -15,4 +15,15 @@ for(let i=0; i<addToCartButtons.length; i++) {
 
 $('.slick').slick({
 	dots:true,
+	autoplay:true, 
+	autoplaySpeed:2000,
 })
+
+//likes
+let productToLike = document.querySelectorAll('.heart2');
+for (let j=0; j<productToLike.length; j++) {
+	productToLike[j].addEventListener('click',function likeProduct () {
+		productToLike[j].classList.toggle("liked");
+		
+	})
+}
