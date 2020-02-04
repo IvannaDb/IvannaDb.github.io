@@ -87,6 +87,7 @@
   	position: relative;
   	height: 40px;
 	width: 290px;
+	z-index: 20;
   	
 }
 
@@ -478,3 +479,15 @@ span{
 	background-color: rgba(255,255,255,0.75);
 }
 
+.slick div {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding: 40px 0;
+	width: 100%;
+	
+
+}
+.slick-dots li.slick-active button:before {
+	color: white;
+}
